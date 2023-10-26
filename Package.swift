@@ -9,7 +9,7 @@ let package = Package(
         .library(name: "ProHUD", targets: ["ProHUD"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/SnapKit/SnapKit.git", "5.0.0" ..< "6.0.0"),
+        .package(url: "https://codeup.aliyun.com/6333b695257dab51ddaa62e9/mirrors/SnapKit", "5.0.0" ..< "6.0.0"),
     ],
     targets: [
         .target(
